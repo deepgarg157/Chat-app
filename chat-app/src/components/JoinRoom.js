@@ -4,7 +4,7 @@ import "../components/JoinRoom.css";
 import Chat from '../components/Chat'
 import toast from 'react-hot-toast';
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://chat-app-backend-hzho.onrender.com/");
 
 const JoinRoom = () => {
   const [username, setUsername] = useState("");
